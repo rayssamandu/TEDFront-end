@@ -1,0 +1,77 @@
+/*Limpar formatações padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    line-height: 35px;
+    font-family: "Treubuchet MS", Helvetica, sans-serif;
+}
+
+/*Layout*/
+
+#area-cabecalho {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#area-cabecalho-link {
+    display: flex;
+    gap: 37px;
+}
+
+.area-cabecalho-link-item{
+    font-family: "Sofia", sans-serif;
+    color: #0611ad;
+    font-weight: 450 ;
+    font-size: 20px;
+}
+.area-nome-curso {
+    padding: 50px;
+    letter-spacing: 5px ;
+    line-height: 50px ;
+    text-align: left;
+    font-size: 1.5em;
+    color:#ffffff;
+}
+
+#conteudo {
+    width: 920px;
+    margin:0 auto;
+}
+
+#conteudo-principal {
+    width: 660px;
+    float: left;
+}
+
+#conteudo-secundario {
+    width: 240px;
+    float: right;
+}
+
+#rodape{
+    background: #198662;
+}
+
+
+/*Formatação do menu*/
+
+a {
+    text-decoration: none;
+}
+
+a:link a:visited {
+    color: #0611ad;
+}
+
+a:hover {
+    color: #ffffff;
+    background: #0611ad;
+}
